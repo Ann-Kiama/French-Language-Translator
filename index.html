@@ -6,17 +6,18 @@
     <link rel="stylesheet" href="src/style.css"/>
     <title>French Poem AI Generator</title>
 </head>
-<body>
+<body class="container">
+    <div>
     <header>
-   <h1>Welcome to French Poem Generator</h1> 
+   <h1>Welcome to French AI Poem Generator</h1> 
    </header>
    <main>
     <form>
-        <input type="text" placeholder="Enter the topic of the French poem" autofocus required/>
-        <input type="submit"/>
+        <input type="text" placeholder="Enter the topic of the French poem"  class="prompt" required/>
+        <input type="submit" class="submit-button"/>
     </form>
    </main>
-   <div>
+   <div class="poem">
     Demain, dès l’aube, à l’heure où blanchit la campagne,
     <br/>
     Je partirai. Vois-tu, je sais que tu m’attends.
@@ -29,5 +30,6 @@ and it's open-sourced on
 and hosted on 
 <a href="https://illustrious-pudding-5ee209.netlify.app/" target="_blank">Netlify</a>
 </footer>
+</div>
 </body>
 </html>
