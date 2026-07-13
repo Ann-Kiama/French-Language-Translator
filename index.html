@@ -14,14 +14,16 @@
    <h1>Welcome to French AI Poem Generator</h1> 
    </header>
    <main>
+    <div class="form-container">
     <form id="poem-generator-form">
         <input type="text" placeholder="Enter the topic of the French poem"  class="prompt" id="user-instructions"  required/>
         <input type="submit" class="submit-button"/>
     </form>
+     <div class="hint"> i.e. Flowers,sea, water etc </div>
+     </div>
+   <div class="poem hidden" id="poem"> 
    </main>
-   <div class="poem" id="poem"> 
-   </div>
-<script src="src/script.js"></script>
+
 <footer>This AI Poem Generator was coded by 
     <a href="https://github.com/Ann-Kiama" target="_blank">Ann Kiama</a>
 and it's open-sourced on 
@@ -30,5 +32,6 @@ and hosted on
 <a href="https://illustrious-pudding-5ee209.netlify.app/" target="_blank">Netlify</a>
 </footer>
 </div>
+<script src="src/script.js"></script>
 </body>
 </html>
